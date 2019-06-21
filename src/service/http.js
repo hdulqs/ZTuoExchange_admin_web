@@ -1,7 +1,8 @@
 import axios from 'axios'
 import qs from 'qs'
-
-export const BASEURL = axios.defaults.baseURL = 'http://39.104.119.155:9090/';
+// By LvQS:20190620
+// export const BASEURL = axios.defaults.baseURL = 'http://39.104.119.155:9090/';
+export const BASEURL = axios.defaults.baseURL = 'http://127.0.0.1:6010/';
 
 export const fetch = (url, params = {}) => {
     return new Promise((resolve, reject) => {
